@@ -21,7 +21,7 @@
 - 3 Things in Machine Learning:
 1. Input data points
 2. Examples of the expected output
-3. A way to measure whether the algorithm is doing a good job
+3. A way to measure mistakes whether the algorithm is doing a good job
 
 - Learning: The measurement between the machine learning algorithm's current output and the expected output used as a feedback signal to adjust the way the algorithm works.
 
@@ -36,13 +36,13 @@
 - Deep Learning: Learning 
 
 
-- Depth of Deep Learning: A new take on learning representations from data, which emphasizes learning successive layers of increasingly meaninful representations.
+- Depth of Deep Learning: A new take on learning representations from data, which emphasizes learning **successive layers of increasingly meaninful representations**.
     - "Deep" -> Successive layers of representations
     - "Depth" -> How many many layers contribute to the model of the data.
 
 - Neural Networks: Layered representation models. 
     - Ex. The network transforms the digit image into representations that are increasingly different from the original image and increasingly more informative about the final result. 
-        - Multistage information-distillation process, where information goes through successive filters and comes out increasingly *purified*.
+        - **Multistage information-distillation process**, where information goes through successive filters and comes out increasingly *purified*.
 
 ![alt text](image-1.png)
 
