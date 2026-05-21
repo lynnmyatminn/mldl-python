@@ -1,0 +1,1 @@
+# Lecture 3 - Deep Learning for Computer Vision - Building Convolutional Neural Networks (CNN) from Scratch
