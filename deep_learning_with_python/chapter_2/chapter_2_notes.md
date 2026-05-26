@@ -74,4 +74,21 @@ Batch = page/group read at a time
 ### Why use batch?
 It saves memory, faster training, weight updates can be done step by step.
 
+### Tensor slicing
+Slicing is the process of taking a portion of data from a Tensor.
+For example-
+my_slice = train_images[10:100]
+It takes image numbers 10 to 99. The shape is- (90, 28, 28)
+Another example-
+my_slice = train_images[:, 14:, 14:]
+It takes the bottom-right 14x14 pixel area of all images. Tensor slicing is explained as data selection along each axis.
+
 ### Loss function/ Cost function/ Objective function
+
+## The gears of neural networks: Tensor operations
+Actual math operations inside neural networks:
+Element-wise operations
+broadcasting
+dot products
+reshaping
+geometric interpretation
